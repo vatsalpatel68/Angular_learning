@@ -1,0 +1,9 @@
+<form [formGroup] = 'inputData' class="form-inline" (submit) = "addData()">
+    <div class="form-group mb-2">
+    <input type = "text"  autocomplete = "off" class="form-control-plaintext" name = 'input' required placeholder="Please enter a data" formControlName='input'/>
+  
+    <button [disabled]= "inputData.get('input').invalid" type='submit' class="btn btn-primary mb-2" >Add</button>
+</div>
+</form>
+
+<app-output [data] = "this.service.fetchData()"></app-output>

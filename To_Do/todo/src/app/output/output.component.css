@@ -1,0 +1,29 @@
+.task-container{
+
+}
+
+.list-group-item{
+    background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+    list-style: none;
+   
+    
+}
+
+.task-container{
+    margin-left:10%;
+    margin-right : 10%;
+    border : 1px solid gray;
+}
+
+
+
+
+
+.button{
+ width : 100px;
+ float: right; 
+ border-radius: 20px;  
+    
+}

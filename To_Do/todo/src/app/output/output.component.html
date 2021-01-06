@@ -1,0 +1,6 @@
+<div class="task-container">
+    <ol class='list-group-item' *ngFor = "let value of data" >
+        <li class = "data-container">{{value.data}}  <button class='button btn-danger ' (click) = "deleteItem(value.data , value.counter)">Delete</button> 
+        </li>
+    </ol>
+</div>

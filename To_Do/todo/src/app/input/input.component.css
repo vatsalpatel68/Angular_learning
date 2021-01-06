@@ -1,0 +1,35 @@
+.form-group{
+
+}
+
+.form-group{
+    height:300px;
+    width: 100vw;
+   
+    justify-content: center;
+   
+}
+.form-control-plaintext{
+    width : 700px;
+    border : 2px solid grey;
+
+}
+
+
+.form-control-plaintext:hover{
+    border: 1px solid;
+    
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.btn-primary
+{
+    margin-left: 5px;
+    margin-top : 5px;
+}
+
+.btn-primary:hover{
+    border: 1px solid;
+    
+    box-shadow: 5px 5px 5px 5px #888888;
+}

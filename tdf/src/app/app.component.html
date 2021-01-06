@@ -1,0 +1,66 @@
+<!--
+{{formdata.value | json}}
+<form #formdata = "ngForm">
+<div class = "form-group">
+    <label>Name</label>
+    <input type ='text' name = "name" class='form-control' ngModel/>
+</div>
+
+<div class = "form-group">
+    <label>Email</label> 
+    <input type ='email' name = "email" class='form-control' ngModel/>
+</div>
+
+<div class = "form-group">
+    <label>Phone</label>
+    <input type ='tel' name = "phone"class='form-control' ngModel/>
+</div>
+
+<div class = "form-group">
+    <select name = "interest" class="custom-select" ngModel>
+        <option selected>I am Interested in:</option>
+        <option *ngFor="let topic of topics">{{topic}}</option>
+    </select>
+</div>
+
+<div class='mb-3'>
+    <label> Time Preference</label>
+    <div class="form-check">
+        <input class='form-check-input' type='radio' name='timePreference' value="morning" ngModel>
+        <label class="form-check-label">Morning</label> 
+        </div>   
+    <div class="form-check">
+       <input class='form-check-input' type='radio' name='timePreference' value="evening" ngModel>
+        <label class="form-check-label">evening</label> 
+    </div>
+</div> 
+
+<div class="form-check mb-3">
+    <input class="form-check-input" name = "promotion" type="checkbox" ngModel>
+    <label class="form-check-label">
+    Send me promotional offers
+    </label>
+</div> 
+
+<div ngModelGroup = "address">
+<div class = "form-group">
+    <label>Street</label>
+    <input type ='tel' name = "Street" class='form-control' ngModel/>
+</div>
+
+<div class = "form-group">
+    <label>Location</label>
+    <input type ='tel' name = "location" class='form-control' ngModel/>
+</div>
+
+<div class = "form-group">
+    <label>City</label>
+    <input type ='tel' name = "city" class='form-control' ngModel/>
+</div>
+</div>
+<button class="btn btn-primary" type="submit">Submit</button>
+</form>
+
+
+-->
+<app-app2></app-app2>
